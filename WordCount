@@ -102,3 +102,17 @@ int exitCode = ToolRunner.run(new WCDriver(), args);
 System.out.println(exitCode);
 }
 }
+
+
+
+//command for hadoop
+startCDH.sh
+vi wcfile.txt
+Dayanada sagar college of enginnering...
+:wq
+hadoop fs -put wcfile.txt
+hadoop jar Wordcount.jar WCDriver wcfile1.txt WCOutput
+hadoop fs -cat WCOutput/part-00000
+
+
+
