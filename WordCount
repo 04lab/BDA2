@@ -120,7 +120,8 @@ hadoop fs -cat WCOutput/part-00000
 (//please dont write this command its not needed
 //not needed commande
 // in cmd terminal
-//cd documents
+//cd desktop
+//cd (txt file ka naam example temp)
 //dir
 //scp *.txt hadoop@if address hadoop ka:/home/hadoop)
 
