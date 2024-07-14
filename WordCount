@@ -116,3 +116,12 @@ hadoop fs -cat WCOutput/part-00000
 
 
 
+//ignore line number (119-125) pls
+(//please dont write this command its not needed
+//not needed commande
+// in cmd terminal
+//cd documents
+//dir
+//scp *.txt hadoop@if address hadoop ka:/home/hadoop)
+
+
