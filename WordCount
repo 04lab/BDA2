@@ -110,6 +110,7 @@ startCDH.sh
 vi wcfile.txt
 Dayanada sagar college of enginnering...
 :wq
+vi wcfile1.txt
 hadoop fs -put wcfile.txt
 hadoop jar Wordcount.jar WCDriver wcfile1.txt WCOutput
 hadoop fs -cat WCOutput/part-00000
